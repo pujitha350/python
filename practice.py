@@ -1,0 +1,20 @@
+#string is a datatype used to represent textual data 
+s1=input("enter your full name:")
+s2=input("enter another full name:")
+print(s1)
+print(s1[0:10:2])
+print(s1[::-1])
+print(s1+s2)
+print(3*s1);
+print(4*s2);
+s1=s1.replace("pujitha marisetty","ramana marisetty")
+print(s1)
+print(s2)
+print(len(s1))
+print(len(s2))
+print(s1.count('a'))
+print(s1.upper())
+print(s1.split())
+print(s1.isalnum())
+print(s1.isalpha())
+print(f"this is practive session of python strings with inputs{s1} and {s2}")

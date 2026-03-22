@@ -1,0 +1,22 @@
+dict={
+    "name":"pujitha",
+    "age":18,
+    "class":"cse"
+}
+print(dict)
+dict["name"]="aparna"
+print(dict)
+print(dict.keys())
+print(dict.values())
+print(dict.items())
+print(dict.get("name1"))
+print(dict.update({"name":"ramana","age":38}))
+print(dict)
+empty_set=set()
+empty_dict={}
+empty_list=[]
+empty_tuple=tuple()
+print(type(empty_set))
+print(type(empty_dict))
+print(type(empty_list))
+print(type(empty_tuple))

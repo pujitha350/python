@@ -1,0 +1,22 @@
+set1={1,2,3,5,4}
+set1.add(4)
+print(set1)
+set1.remove(1)
+print(set1)
+set2={5,6,7,8,9,10}
+print(set2)
+union_set=set1.union(set2)
+print(union_set)
+inter_set=set1.intersection(set2)
+print(inter_set)
+diff_set=set1.difference(set2)
+print(diff_set)
+symmet_diff=set1^(set2)
+print(symmet_diff)
+print(2 in set1)
+set3={6,4,7,3,2,1}
+frozen_set=frozenset(set3)
+set4=set1.copy()
+print(set4)
+set1.pop()
+print(set1) 
